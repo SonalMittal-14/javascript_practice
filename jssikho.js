@@ -137,7 +137,7 @@ const money = new Number(100.8765)
 // console.log(money);
 
 console.log(money.toString().length);
-console.log(money.toFixed(2));
+// console.log(money.toFixed(2));
 
 
 // const ekornumber = 1123.8765
