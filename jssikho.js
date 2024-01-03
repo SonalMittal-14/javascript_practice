@@ -140,6 +140,6 @@ console.log(money.toString().length);
 console.log(money.toFixed(2));
 
 
-const ekornumber = 1123.8765
+// const ekornumber = 1123.8765
 // console.log(ekornumber.toPrecision(3));
 
