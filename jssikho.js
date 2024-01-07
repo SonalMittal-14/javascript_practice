@@ -143,8 +143,8 @@ console.log(money.toFixed(2));
 // const ekornumber = 1123.8765
 // console.log(ekornumber.toPrecision(3));
 
-const hundreds = 1000000000;
-console.log(hundreds.toLocaleString());
+// const hundreds = 1000000000;
+// console.log(hundreds.toLocaleString());
 
 console.log(Math);
 console.log(Math.abs(-4));
