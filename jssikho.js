@@ -131,10 +131,10 @@ console.log(str3);
 
 
 // numbers and maths 
-const score = 400;
-console.log(score);
-const money = new Number(100.8765)
-console.log(money);
+// const score = 400;
+// console.log(score);
+// const money = new Number(100.8765)
+// console.log(money);
 
 console.log(money.toString().length);
 console.log(money.toFixed(2));
