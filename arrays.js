@@ -28,3 +28,6 @@ console.log("B", myArr);
 const myn2 = myArr.splice(1,3) // ismai last value include hoti h
 console.log(myn2); //or ye original array ko manipulate karta h
 console.log(myn1);
+
+const marvel = ["thor", "ironman", "spiderman"]
+const dc = []
