@@ -30,4 +30,26 @@ console.log(myn2); //or ye original array ko manipulate karta h
 console.log(myn1);
 
 const marvel = ["thor", "ironman", "spiderman"]
-const dc = []
+const dc = ["superman", "flash", "batman"]
+
+marvel.push(dc)
+// console.log(marvel);
+
+const hero = marvel.concat(dc)
+console.log(hero);
+
+const newHero = [...marvel, ...dc]
+console.log(newHero);
+
+const another_array = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
+const realArray = another_array.flat(Infinity)
+console.log(realArray);
+
+console.log(Array.isArray("Sonal"));
+console.log(Array.from("Sonal"));
+console.log(Array.from({name: "Sonal"}));
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+console.log(Array.of(score1, score2, score3));
