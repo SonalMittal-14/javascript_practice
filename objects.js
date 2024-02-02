@@ -73,3 +73,11 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedin'));
+
+const course  = {
+    coursename : "bhag bhosdi",
+    price : "100000000",
+    courseinstructor : "cvbnm"
+}
+
+ 
