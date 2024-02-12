@@ -1,11 +1,11 @@
-// singleton
+// singleton - ye apni tarah ka ek hi object h 
 // object literal
 
 const symbol = Symbol("key1")
 
 const JsUser = {
     name: "Sonal",
-    [symbol]: "mykey1",
+    [symbol]: "mykey1", // symbol ko define karnai ka sahi tarika 
     "full name": "sonal mittal",
     age: 21,
     location: "lucknow",
@@ -14,18 +14,20 @@ const JsUser = {
     lastLoginDays: ["Monday", "Saturday"]
 }
 
-console.log(JsUser.email);
-console.log(JsUser["email"]);
+console.log(JsUser.email); 
+console.log(JsUser["email"]); // square braket vala tarika tab kaam aata h jab string mai space hoti h
 console.log(JsUser["full name"]);
 console.log(typeof JsUser[symbol]);
 
 JsUser.email = "sonal@gla.com"
-// Object.freeze(JsUser)
+// Object.freeze(JsUser) // value change nahi hoti h 
 JsUser.email = "sonal@google.com"
 console.log(JsUser);
 
+
+// functions variable ki tarah treat kar sakte h
 JsUser.greeting = function(){
-    console.log("hello");
+    console.log("hello"); 
 }
 console.log(JsUser.greeting());
 
