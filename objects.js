@@ -27,7 +27,7 @@ console.log(JsUser);
 
 // functions variable ki tarah treat kar sakte h
 JsUser.greeting = function(){
-    console.log("hello"); 
+    console.log("hello");   
 }
 console.log(JsUser.greeting());
 
@@ -70,8 +70,8 @@ const users = {
 }
 
 console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedin'));
